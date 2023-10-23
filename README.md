@@ -1,68 +1,62 @@
-# Alura-Desafios-1 (Iniciando com JavaScript)
+# Alura-Desafios-2 (Condicionais e concatenação)
 Treinamento com desafios, cursando Alura. Se você se interessar, aqui está o link: https://www.alura.com.br/
 
 #### Desafios - Minhas respostas feitas antes de verificar @alura-cursos.
 
 Percebi que no site da Alura as instruções são diferentes do perfil @alura-cursos no site do GitHub, mas no final praticamente resulta no mesmo, a diferença que percebi é que no GitHub as instruções são mais completas e claras, decidi por escolha minha, deixar como estava no site da Alura.
 
-1) Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
+1) Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 
 ```js
-alert('Boas vindas ao nosso site!');
+//Variável da pergunta que armazena a resposta do usuário.
+let respostaUsuario = prompt('Que dia da semana é hoje?');
+
+//Se a resposta do usuário for Sábado ou Domingo, uma mensagem de alerta será exibida com a mensagem "Bom fim de semana!".
+if(respostaUsuario == 'Sábado' || 'Domingo') alert('Bom fim de semana!');
+//Senão uma mensagem de alerta será exibida com a mensagem "Boa semana!";
+else alert('Boa semana!');
 ```
 
-2) Declare uma variável chamada `nome` e atribua a ela o valor "Lua".
+2) Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 
 ```js
-let nome = 'Lua';
+//Variável que armazena o número escolhido pelo usuário.
+let numeroEscolhido = prompt('Escolha um número:');
+
+//Se o número escolhido for maior que zero, um alerta aparecerá falando que você escolheu um número positivo.
+if(numeroEscolhido > 0) alert('Você escolheu um número positivo');
+//Se o número escolhido for menor que zero, um alerta aparecerá falando que você escolheu um número negativo.
+if(numeroEscolhido < 0) alert('Você escolheu um número negativo');
 ```
 
-3) Crie uma variável chamada `idade` e atribua a ela o valor 25.
+3) Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
 
 ```js
-let idade = 25;
+//Variável da pontuação.
+let pontuacao;
+
+//Se a pontuação for maior ou igual a cem, uma mensagem de alerta será exibido com a mensagem "Parabéns, você venceu!".
+if(pontuacao >= 100) alert('Parabéns, você venceu!');
+//Senão uma mensagem de alerta será exibida com a mensagem "Tente novamente para ganhar.".
+else alert('Tente novamento para ganhar.');
 ```
 
-4) Defina uma variável `numeroDeVendas` e atribua a ela o valor 50.
+4) Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 
 ```js
-let numeroDeVendas = 50;
+//Variável que armazena o saldo da conta.
+let saldoConta = 0;
+
+//Mensagem de alerta informando o saldo da conta - Um template com string.
+alert(`O atual saldo da sua conta é de R$${saldoConta}`);
 ```
 
-5) Defina uma variável `saldoDisponivel` e atribua a ela o valor 1000.
+5) Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
 ```js
-let saldoDisponivel = 100;
-```
+//Variável em prompt que armazena o nome do usuário.
+let nomeUsuario = prompt('Insira seu nome, por favor:');
 
-6) Exiba um alerta com o texto "Erro! Preencha todos os campos."
-
-```js
-alert('Erro! Preencha todos os campos. Recarregue a página.');
-```
-
-7) Declare uma variável chamada `mensagemDeErro` e atribua a ela o valor "Erro! Preencha todos os campos." Agora exiba um alerta com o valor da variável `mensagemDeErro`.
-
-```js
-let mensagemDeErro = 'Erro! Preencha todos os campos. Recarregue a página.';
-alert(mensagemDeErro);
-```
-
-8) Use um prompt para perguntar o nome do usuário e armazená-lo na variável `nome`.
-
-```js
-let nome = prompt('Nome, por favor:');
-```
-
-9) Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável `idade`.
-
-```js
-let idade = prompt('Idade, por favor:');
-```
-
-10) Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
-
-```js
-let habilitacaoAutorizada = 'Pode tirar a habilitação!';
-if(idade >= 18) alert(habilitacaoAutorizada);
+//Mensagem de alerta dando boas-vindas usando template com string.
+alert(`Boas-vindas ${nomeUsuario}!`);
 ```
