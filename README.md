@@ -1,62 +1,58 @@
-# Alura-Desafios-2 (Condicionais e concatenação)
+# Alura-Desafios-3 (Loops e tentativas)
 Treinamento com desafios, cursando Alura. Se você se interessar, aqui está o link: https://www.alura.com.br/
 
 #### Desafios - Minhas respostas feitas antes de verificar @alura-cursos.
 
 Percebi que no site da Alura as instruções são diferentes do perfil @alura-cursos no site do GitHub, mas no final praticamente resulta no mesmo, a diferença que percebi é que no GitHub as instruções são mais completas e claras, decidi por escolha minha, deixar como estava no site da Alura.
 
-1) Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
+1) Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
 ```js
-//Variável da pergunta que armazena a resposta do usuário.
-let respostaUsuario = prompt('Que dia da semana é hoje?');
+// Variável de contagem que começa do 1.
+let contador = 1;
 
-//Se a resposta do usuário for Sábado ou Domingo, uma mensagem de alerta será exibida com a mensagem "Bom fim de semana!".
-if(respostaUsuario == 'Sábado' || 'Domingo') alert('Bom fim de semana!');
-//Senão uma mensagem de alerta será exibida com a mensagem "Boa semana!";
-else alert('Boa semana!');
+// Enquanto o contador for menor que dez, o contador será ele mesmo mais um.
+while (contador < 10) contador++;
 ```
 
-2) Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+2) Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
 
 ```js
-//Variável que armazena o número escolhido pelo usuário.
-let numeroEscolhido = prompt('Escolha um número:');
+// Variável de contagem que começa do 10.
+let contador = 10;
 
-//Se o número escolhido for maior que zero, um alerta aparecerá falando que você escolheu um número positivo.
-if(numeroEscolhido > 0) alert('Você escolheu um número positivo');
-//Se o número escolhido for menor que zero, um alerta aparecerá falando que você escolheu um número negativo.
-if(numeroEscolhido < 0) alert('Você escolheu um número negativo');
+// Enquanto o contador for maior que um, o contador será ele mesmo menor um.
+while (contador > 0) contador--;
 ```
 
-3) Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+3) Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
 
 ```js
-//Variável da pontuação.
-let pontuacao;
+// Variável do número escolhido.
+let numeroUsuario = prompt('Escolha um número, por favor:');
 
-//Se a pontuação for maior ou igual a cem, uma mensagem de alerta será exibido com a mensagem "Parabéns, você venceu!".
-if(pontuacao >= 100) alert('Parabéns, você venceu!');
-//Senão uma mensagem de alerta será exibida com a mensagem "Tente novamente para ganhar.".
-else alert('Tente novamento para ganhar.');
+// Enquanto o número escolhido pelo usuário for maior que zero.
+while (numeroUsuario > 0) {
+    // Mostrará no console o valor da variável de contagem regressiva.
+    console.log(contagemRegressiva);
+    // A contagem regressiva será igual a ela mesma menos um.
+    numeroUsuario--;
+}
 ```
 
-4) Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+4) Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
 
 ```js
-//Variável que armazena o saldo da conta.
-let saldoConta = 0;
+// Variável do número escolhido.
+let numeroUsuario = prompt('Escolha um número, por favor:');
+// Variável de contagem progressiva será igual ao número escolhido pelo usuário.
+let contagemProgressiva = 0;
 
-//Mensagem de alerta informando o saldo da conta - Um template com string.
-alert(`O atual saldo da sua conta é de R$${saldoConta}`);
-```
-
-5) Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
-
-```js
-//Variável em prompt que armazena o nome do usuário.
-let nomeUsuario = prompt('Insira seu nome, por favor:');
-
-//Mensagem de alerta dando boas-vindas usando template com string.
-alert(`Boas-vindas ${nomeUsuario}!`);
+// Enquanto a contagem progressiva for menor que o número escolhido pelo usuário.
+while (contagemProgressiva < numeroUsuario) {
+    // Mostrará no console o valor da variável de contagem progressiva.
+    console.log(contagemProgressiva);
+    // A contagem progressiva será ela mesma menos um.
+    contagemProgressiva++;
+}
 ```
