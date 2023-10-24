@@ -1,44 +1,44 @@
 # Agradecimentos:
 
-## Pessoas instrutoras:
-Guilherme Lima
-Monica Hillman
+### Pessoas instrutoras:
+- Guilherme Lima
+- Monica Hillman
 
-## Produção didática:
-Mariana Cerigato
+### Produção didática:
+- Mariana Cerigato
 
-## Direção e produção audiovisual:
-Vinicius Moraes
+### Direção e produção audiovisual:
+- Vinicius Moraes
 
-## Direção de fotografia:
-Flávia Oliveira
+### Direção de fotografia:
+- Flávia Oliveira
 
-## Direção de arte:
-Lua Apolinário
+### Direção de arte:
+- Lua Apolinário
 
-## Operação de áudio:
-Pedro Luiz
+### Operação de áudio:
+- Pedro Luiz
 
-## Operação de câmera:
-Rafael Aguiar
+### Operação de câmera:
+- Rafael Aguiar
 
-## Coordenação de produção:
-Amanda Sanches
+### Coordenação de produção:
+- Amanda Sanches
 
-## Edição:
-Vanessa Lopes
-Lucas Godoy
+### Edição:
+- Lucas Godoy
+- Vanessa Lopes
 
-## Design:
-Rafael Balbi
+### Design:
+- Rafael Balbi
 
-## Transcrição:
-Caroline Bruni
-Sofia Dias
-Mari Uesugui
-Júlia Rocha
-Edivaldo Ferreira
-Lívia Moura
-Rodrigo Ribeiro
-Nyerik Scarmeloto
-Patricia de Paula Gonçalves
+### Transcrição:
+- Caroline Bruni
+- Edivaldo Ferreira
+- Júlia Rocha
+- Lívia Moura
+- Mari Uesugui
+- Nyerik Scarmeloto
+- Patricia de Paula Gonçalves
+- Rodrigo Ribeiro
+- Sofia Dias
